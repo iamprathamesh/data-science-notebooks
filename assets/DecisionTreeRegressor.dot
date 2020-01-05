@@ -1,0 +1,36 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Max.Price <= 41.5\nmae = 19.689\nsamples = 74\nvalue = 37.5"] ;
+1 [label="Max.Price <= 15.5\nmae = 10.829\nsamples = 41\nvalue = 23.0"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+3 [label="Horsepower <= 6.5\nmae = 4.429\nsamples = 14\nvalue = 6.0"] ;
+1 -> 3 ;
+11 [label="mae = 1.286\nsamples = 7\nvalue = 3.0"] ;
+3 -> 11 ;
+12 [label="mae = 2.429\nsamples = 7\nvalue = 11.0"] ;
+3 -> 12 ;
+4 [label="Turn.circle <= 7.5\nmae = 6.333\nsamples = 27\nvalue = 30.0"] ;
+1 -> 4 ;
+7 [label="mae = 3.091\nsamples = 11\nvalue = 22.0"] ;
+4 -> 7 ;
+8 [label="Min.Price <= 40.5\nmae = 3.812\nsamples = 16\nvalue = 34.0"] ;
+4 -> 8 ;
+15 [label="mae = 2.692\nsamples = 13\nvalue = 33.0"] ;
+8 -> 15 ;
+16 [label="mae = 1.667\nsamples = 3\nvalue = 42.0"] ;
+8 -> 16 ;
+2 [label="Min.Price <= 60.5\nmae = 9.606\nsamples = 33\nvalue = 61.0"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label="Min.Price <= 46.5\nmae = 5.833\nsamples = 18\nvalue = 54.5"] ;
+2 -> 5 ;
+9 [label="mae = 2.143\nsamples = 7\nvalue = 44.0"] ;
+5 -> 9 ;
+10 [label="mae = 2.636\nsamples = 11\nvalue = 57.0"] ;
+5 -> 10 ;
+6 [label="Min.Price <= 68.5\nmae = 4.2\nsamples = 15\nvalue = 72.0"] ;
+2 -> 6 ;
+13 [label="mae = 2.667\nsamples = 6\nvalue = 67.5"] ;
+6 -> 13 ;
+14 [label="mae = 2.444\nsamples = 9\nvalue = 75.0"] ;
+6 -> 14 ;
+}
